@@ -56,17 +56,19 @@ const questions = [
     // }
 ];
 
-function writeToFile(filename, answers) {
+// function writeToFile(filename, answers) {
+    function writeToFile() {
+
     try {
         // const answers = await promptUser();
-        console.log("62", answers.title)
+        // console.log("62", answers.title)
 
         const md = generateMarkdown(answers);
         // await writeToFile("readme_test.md", md);
         // console.log(answers);
-        console.log("67", answers.title)
+        // console.log("67", answers.title)
         
-        writeToFile("readme_test.md", md);
+        writeToFile("readme.md", md);
 
         console.log("Successfully wrote to readme_test.md");
     } catch (err) {
@@ -85,7 +87,7 @@ function promptUser() {
             let answers = { ...information, ...data }; //combines all data into an object
             // console.log(answers);
             // console.log(answers.title)
-            writeToFile("readme_test.md", answers); // calls the data to writeToFile function 
+            writeToFile("readme.md", answers); // calls the data to writeToFile function 
         });
 
 };
