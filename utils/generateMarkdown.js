@@ -29,9 +29,10 @@ ${data.contributors}
 ${data.test}
 
 ## Questions
-"For more information email [${data.email}](${data.email})"
+![awesomebadge](https://img.shields.io/badge/awesomeness%20level-${data.login}-blueviolet)
+
+For more information email [${data.email}](${data.email})
 ![GitHub coder avatar](${data.avatar_url})
 `;
 }
-
 module.exports = generateMarkdown;

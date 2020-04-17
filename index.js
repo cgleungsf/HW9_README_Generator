@@ -13,11 +13,6 @@ const questions = [
         name: "username",
         message: "What is your GitHub Username?"
     },
-    // {
-    //     type: "input",
-    //     name: "badge",
-    //     message: "What badge do you want to add?"
-    // },
     {
         type: "input",
         name: "title",
@@ -67,9 +62,7 @@ function promptUser() {
             console.log(answers);
             const readme = await generateMarkdown(answers);
             await writeFileAsync("./assets/readme.md", readme);
-            console.log("did this work?  - 87")
         });
-        console.log(answers);
 };
 
 async function init() {
