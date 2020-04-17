@@ -14,7 +14,7 @@ ${data.description}
 * [Questions](#questions)
 
 ## Installation
-${data.install}
+${data.installation}
 
 ## Usage
 ${data.usage}
@@ -26,12 +26,11 @@ ${data.license}
 ${data.contributors}
 
 ## Tests
-${data.tests}
+${data.test}
 
 ## Questions
-${data.questions}
-
-
+"For more information email [${data.email}](${data.email})"
+![GitHub coder avatar](${data.avatar_url})
 `;
 }
 
