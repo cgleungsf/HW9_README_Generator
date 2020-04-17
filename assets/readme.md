@@ -1,22 +1,22 @@
 
-# READ ME Generator
+# Read Me Generator
 
 ## Description
-Created a Read Me Generator where a use will input information on their code and the generator pushes a read me file.
+Created a Read Me Generator where a user will input information on their code and the generator pushes a read me file.
 
 ## Table of Contents
 * [Installation](#installation)
 * [Usage](#usage)
 * [License](#license)
-* [Constributors](#contributors)
+* [Contributors](#contributors)
 * [Tests](#tests)
 * [Questions](#questions)
 
 ## Installation
-Installation information goes here
+Installtion information goes here
 
 ## Usage
-Usage and instructions go here
+Usage information goes here
 
 ## License
 License information goes here
@@ -25,10 +25,10 @@ License information goes here
 Contributor information goes here
 
 ## Tests
-If any tests have been run, information is put here. 
+Test information goes here
 
 ## Questions
 ![awesomebadge](https://img.shields.io/badge/awesomeness%20level-cgleungsf-blueviolet)
 
-For more information email [email placeholder](email placeholder)
+For more information email [cgleungsf@gmail.com](cgleungsf@gmail.com)
 ![GitHub coder avatar](https://avatars1.githubusercontent.com/u/61520122?v=4)

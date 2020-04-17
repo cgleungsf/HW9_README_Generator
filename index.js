@@ -15,6 +15,11 @@ const questions = [
     },
     {
         type: "input",
+        name: "email",
+        message: "Enter your email: "
+    },
+    {
+        type: "input",
         name: "title",
         message: "Enter your Project title: "
     },
@@ -59,7 +64,7 @@ function promptUser() {
             // console.log(information);// information grabs the api username and avatar
             // console.log(data); // data grabs the information from the questions list
             let answers = { ...information, ...data }; //combines all data into an object
-            console.log(answers);
+            // console.log(answers);
             const readme = await generateMarkdown(answers);
             await writeFileAsync("./assets/readme.md", readme);
         });

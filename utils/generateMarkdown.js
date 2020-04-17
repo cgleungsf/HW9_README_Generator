@@ -9,7 +9,7 @@ ${data.description}
 * [Installation](#installation)
 * [Usage](#usage)
 * [License](#license)
-* [Constributors](#contributors)
+* [Contributors](#contributors)
 * [Tests](#tests)
 * [Questions](#questions)
 
